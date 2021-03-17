@@ -124,15 +124,15 @@ h3, h4 {
 
 p {
     font-size: 0.875em;
-    line-height: 1.125em;
+    line-height: 1.285;
 }
 
 img {
-
+    width: 100%;
 }
 
 figure {
-
+    margin: 0;
 }
 
 address {
@@ -190,6 +190,14 @@ header nav ul {
     width: 100%;
 }
 
+header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
 footer {
     flex-direction: column;
     text-align: center;
@@ -229,6 +237,10 @@ footer .copyright {
 /* Hero Area */
 
 .hero-area {
+    background: url(../img/hero-image.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -280,6 +292,9 @@ input[type=button] {
 /* Features */
 
 .features {
+    background: url(../img/features-image.jpg);
+    background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
