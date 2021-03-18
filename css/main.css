@@ -102,6 +102,8 @@ body {
 ul,
 ol {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -113,6 +115,7 @@ h2 {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 1.875em;
+    margin: 0;
 
 }
 
@@ -197,6 +200,10 @@ header nav ul {
     width: 100%;
     display: flex;
     justify-content: space-around;
+}
+
+header nav ul li {
+    font-size: 1.125em;
 }
 
 footer {
@@ -606,6 +613,10 @@ input[type=button] {
 
     .features .features-item-description {
         width: 62%;
+    }
+
+    .features i {
+        margin-bottom: 30px;
     }
 
     /* Reviews */
