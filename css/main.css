@@ -146,7 +146,7 @@ address {
    .content-wrapper {
        width: 90%;
        margin: 50px 0;
-   }
+ }
 
 /*-----------Base Header - Footer Styles ------------*/
 header,
@@ -267,6 +267,10 @@ footer .copyright {
     font-family: "Poppins", Helvetica, Arial, sans-serif;
     font-weight: 500;
     line-height: 1.2;
+}
+
+.hero-area .content-wrapper {
+    margin: 20px 0;
 }
 
 /* Aside */
@@ -582,6 +586,10 @@ input[type=button] {
         margin: 0;
     }
 
+    .hero-area .content-wrapper {
+        margin: 90px 0;
+    }
+
     /*Aside */
 
     aside .content-wrapper {
@@ -770,6 +778,10 @@ this is redundant from tablet media query, so I didn't include it */
     .hero-area h1 {
         font-size: 3.75em;
         width: 80%;
+    }
+
+    .hero-area .content-wrapper {
+        margin: 60px 0;
     }
 
     /* Aside */
